@@ -20,7 +20,7 @@ function Cards({ data: { confirmed, recovered, deaths, lastUpdate }}) {
       text: 'Number of active cases of COVID-19'
     },
     {
-      title: 'Infected',
+      title: 'Recovered',
       end: recovered.value,
       klasa: styles.recovered,
       text: 'Number of recoveries cases of COVID-19'
